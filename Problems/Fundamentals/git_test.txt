@@ -1,0 +1,7 @@
+Pull the repository.
+Copy this file over to your working directory.
+Write a random sentence below me:
+
+Add the file.
+Commit your changes with the message "I am committing git_test"
+Push your changes to the repository.
