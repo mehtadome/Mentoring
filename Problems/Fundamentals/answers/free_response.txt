@@ -1,0 +1,57 @@
+# Does this code work?
+
+arr  = [1, 2, 3, 4]
+arr2 = [1, 2, 3, 4, 5, 6]
+i = 0
+ while (i < len(arr2)):
+    print (arr[i], arr2[i])
+
+Ans: No, it will cause an "index out of range error"
+len(arr2) > len(arr1)
+
+# Is this code syntatically correct?:
+
+arr = [1 , 2 , 3 , 4 , 5 , 6]
+
+Ans [Y/N]: Y
+
+# Is this code syntatically correct?:
+
+arr = [1 , 2 , 3 , 
+4 , 5 , 6]
+
+Ans [Y/N]: N, cannot have line break.
+
+# What is the output of the following?:
+import math
+arr = [0, 1, -1, 1, 0]
+for i in arr:
+    if i < 0:
+        abs(i)
+print (arr)
+
+Ans:[0, 1, -1, 1, 0]
+abs(i) is not assigned to memory and is automatically deleted by the compiler.
+
+# What is the output of the following?:
+arr = []
+for i in range(len(arr)):
+    if arr[i] is None:
+        arr[i] = i + 1
+print(arr)
+
+Ans: []
+arr is empty so the loop never runs. Although logically incorrect, it's syntax is accurate.
+
+# What is the output of the following?:
+
+import math
+arr = [0, 1, -1, 1, 0]
+for i in arr:
+    if i < 0:
+        i = abs(i)
+print (arr)
+
+Ans: [0, 1, -1, 1, 0]
+To manipulate an array's elements, you must refer to the array at its specific position. 
+i only temporarily represents the array's value and does not point to its actually place in memory.
