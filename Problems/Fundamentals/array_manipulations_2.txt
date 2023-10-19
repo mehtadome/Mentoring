@@ -1,0 +1,62 @@
+# Does this code run?
+arr = ["why", "hello", "world"]
+str = ""
+while i < len(arr):
+    str = str + arr[i] + " "
+    i+=1
+
+Ans:
+
+# What is the output of this code?
+arr = [0,1,2,3,4]
+sum = 0
+for i in arr:
+    sum += i
+
+Ans:
+
+# What is the output of this code?
+def add_four(a, b, c, d):
+    a + b + c + d
+
+print ( add_four(5, 5, 5, 5) )
+
+Ans: 
+
+# Does this code run?
+def add_three(a, b, c):
+    return a + b + c 
+print( add_three(4, 5, -3.8) )
+
+Ans:
+
+# Does this code run?
+def add_two(a, b) -> float():
+    return a + b
+print ( add_two(10, 5) )
+
+Ans:
+
+# What is the output of the code?
+yes = False 
+no = True 
+if yes:
+    print ("1")
+elif not no:
+    print ("2")
+else:
+    print ("3")
+
+Ans:
+
+
+*HARD*
+# What is the output of this code?
+arr1 = ["a", "b", "c"]
+arr2 = ["a", "b", "c"]
+for i in arr1:
+    for j in arr2:
+        print(i, j)
+
+Ans:
+
