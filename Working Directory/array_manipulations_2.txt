@@ -21,7 +21,7 @@ def add_four(a, b, c, d):
 
 print ( add_four(5, 5, 5, 5) )
 
-Ans: nothing but i don't know why exactly but something feels off
+Ans: doesn't save in memory, deleted immediately
 
 # Does this code run?
 def add_three(a, b, c):
@@ -47,7 +47,7 @@ elif not no:
 else:
     print ("3")
 
-Ans:
+Ans: 3
 
 
 *HARD*
@@ -58,5 +58,13 @@ for i in arr1:
     for j in arr2:
         print(i, j)
 
-Ans:
-
+Ans: 
+a a
+a b
+a c 
+b a 
+b b 
+b c 
+c a 
+c b 
+c c 
