@@ -6,3 +6,7 @@ Mentee List (Please look at their LinkedIn profiles for hiring):
 https://www.linkedin.com/in/isaacorais
 
 https://www.linkedin.com/in/hardeep-singh-s
+
+https://www.linkedin.com/in/jack-demeulemeester/
+
+https://www.linkedin.com/in/lucas-jablon/
