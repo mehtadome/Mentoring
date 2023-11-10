@@ -1,0 +1,19 @@
+{
+    "Contacts": 
+    [
+    {
+        "Ruchir"    : "666",
+        "Hardeep"   : "3.14",
+        "Ishmeet"   : "!#-_",
+        "Dominick"  : "420",
+        "Seth"      : "-_-"
+    }]
+    ,
+    "Locations":
+    [{
+        "California" : "USA",
+        "Nevada"     : "USA",
+        "London"     : "UK",
+        "Ontario"    : "Canada"
+    }]
+}
