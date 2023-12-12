@@ -16,7 +16,7 @@ Create the following methods:
 4. ```common_ancestor```.
 5. ```balance_bst```.
 
-Create a binary tree using your ```tree_insert``` method, implement a way to _print_ it (if not using **Python**), and successfully call all methods properly, showing accurate usage of them with your printing function. 
+Create a binary search tree using your ```tree_insert``` method, implement a way to _print_ it (if not using **Python**), and successfully call all methods properly, showing accurate usage of them with your printing function. 
 
 ### Clarifications
 ```pass``` is inputed to avoid errors. It is not appropriate code and should not remain in your working methods.
