@@ -1,18 +1,20 @@
 # TreeNode class
 class TreeNode:
-    def __init__(self, val):
+    def __init__(self, val, left=None, right=None):
         self.val = val
-        self.left = None 
-        self.right = None
+        self.left = left 
+        self.right = right
 
 class BinarySearchTree:
     def __init__(self, root):
         self.root = root 
-        self.height = 0
+        self.num_nodes = 0
 
 
     """
     Given method to display the Binary Tree.
+
+    Lets you display the tree. Call with mytree.root.display()
     """
     def display(self):
         lines, *_ = self._display_aux()
@@ -22,6 +24,8 @@ class BinarySearchTree:
 
     """
     Given helper method to display the Binary Tree.
+
+    Do not touch.
     """
     def _display_aux(self):
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
@@ -69,29 +73,38 @@ class BinarySearchTree:
         return lines, n + m + u, max(p, q) + 2, n + u // 2
 
 
-    def insert(self, val):
-        node = TreeNode(val)
+    # overrides len
+    def __len__(self):
+        return self.num_nodes
         
+    
+    def insert(self, val):
+        # incomplete
+        node = TreeNode(val)
 
+        
     """
     Create a binary tree, implement a way to print it in a readable fashion.
     Methods wanted:
-    Pre-order
-    Post-order
-    In-order
-    Tree_Search
-    Maximum (highest val node)
-    Minimum 
-    Successor
-    Predecessor
-    Common Ancestor
-    Balance BST
+    insert
+    pre-order
+    post-order
+    in-order
+    tree search - returns True if exists in tree, False if not
+    maximum (highest val node)
+    minimum 
+    successor
+    predecessor
+    delete - delete the node with val given
+    common ancestor - given two vals, return lowest common ancestor
+    balance BST - used near end of main function after tree has been mutated. 
     """
 
 
 def main():
     pass
 
-
-if __name__ == "__main__":
+if __name__ == main():
+    print ("STARTING PROGRAM\n")
     main()
+    print ("\nENDING PROGRAM")
