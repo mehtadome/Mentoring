@@ -3,9 +3,6 @@
 ## pseudocode.md
 Explains what to do.
 
-## linked_list.py
-Provides beginner code and instructions.
-
 ## ll_guided.py
 Use if struggling, looking for structure, and help on implementation of methods.
 
