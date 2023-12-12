@@ -15,4 +15,4 @@ bst_guided.py has a display helper function for printing the bst in python. Feel
 ### Remember
 This is supposed to be challenging. I recommend you use the pseudocode.md and create everything yourself. Get used to creating your own ```objects``` and ```classes```. 
 
-You will be expected to be comfortale in OOP, data structures, and the fundamental manipulation of data structures.
+You will be expected to be comfortable in OOP, data structures, and the fundamental manipulation of data structures.
