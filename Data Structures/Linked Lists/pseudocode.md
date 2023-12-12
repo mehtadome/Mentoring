@@ -25,3 +25,10 @@ Your code must create the LinkedList and manipulate it accordingly with the want
 
 ### Clarifications
 ```pass``` is placeholder code to avoid errors. It should not remain in your finished methods.
+
+## To Challenge Yourself
+Use ```addAtHead()``` to create the list. 
+
+Create a new method ```sort_linkedlist()``` which sorts the values in ascending order.
+
+Optimize the method ```sort_linkedlist()``` with **merge sort**.
