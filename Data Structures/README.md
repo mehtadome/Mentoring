@@ -1,5 +1,5 @@
 # Structure
-Max 4 files.
+Files Explained:
 
 ## pseudocode.md
 All data structures will have a file ```pseudocode.md``` that explains the task to implement in code. 
