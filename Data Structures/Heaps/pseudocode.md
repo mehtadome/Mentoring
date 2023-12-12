@@ -2,7 +2,7 @@
 Heaps are based on fundamentals of positioning. Also, recall that the largest element of a max-heap is at the top.
 
 ## ```Heap()``` class
-A ```Heap``` has two attributes, a heap in the form of an array, and a ```size```.
+A ```Heap``` has two attributes, a ```heap``` in the form of an array, and a ```size```.
 
 ## Tasks
 Implement the following helper methods for the ```Heap``` class:
