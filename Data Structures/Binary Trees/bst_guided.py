@@ -19,6 +19,8 @@ class TreeNode:
 
     """
     Given method to display the Binary Tree.
+
+    Call with: BinaryTree.root.display()
     """
     def display(self):
         lines, *_ = self._display_aux()
@@ -28,6 +30,8 @@ class TreeNode:
 
     """
     Given helper method to display the Binary Tree.
+
+    **Do not touch**
     """
     def _display_aux(self):
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
@@ -367,8 +371,9 @@ def main():
 
 
 if __name__ == "__main__":
+    print("STARTING PROGRAM\n")
     main()
-    print("\n")
+    print("\nEXITING PROGRAM")
     exit()
 
     
