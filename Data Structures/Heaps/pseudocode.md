@@ -1,5 +1,5 @@
 # Pseudocode
-Heaps are based on fundamentals of positioning. Also, recall that the largest element of a max-heap is at the top.
+Heaps are based in the fundamentals of positioning / indexing. Also, recall that the largest element of a max-heap is at the top.
 
 ## ```Heap()``` class
 A ```Heap``` has two attributes, a ```heap``` in the form of a list, and a ```size```.
