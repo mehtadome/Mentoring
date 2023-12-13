@@ -17,6 +17,9 @@
 
 [https://leetcode.com/problems/palindromic-substrings/]
 
+## Palo Alto Networks '21
+[https://leetcode.com/problems/set-matrix-zeroes/]
+
 ## LeanData '21
 [https://leetcode.com/problems/highest-grade-for-each-student/]
 
