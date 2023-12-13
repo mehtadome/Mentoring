@@ -3,7 +3,7 @@ Encompasses two classes, ```Node()``` and ```Tree()```
 
 
 ## ```Node``` 
-Each node has three attributes, ```val```, ```next```.
+Each node has two attributes, ```val```, ```next```.
 
 ## ```Stack```
 A Stack has two attributes, ```top``` and a ```size```.
