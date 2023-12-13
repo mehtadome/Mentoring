@@ -1,16 +1,13 @@
 from random import Random
 import time
 
+"""
+Implement Bubble Sort. 
+"""
+
 # O(n^2)
 def bubble_sort(arr):
-    for i in range(len(arr)):
-        for j in range(len(arr)):
-            if arr[i] < arr[j]:
-                temp = arr[i]
-                arr[i] = arr[j]
-                arr[j] = temp
-    # arrays will maintain their changes from a function
-    return arr
+    pass
 
 
 start = time.time()
