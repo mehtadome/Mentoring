@@ -1,0 +1,5 @@
+Copyright (C) 2021 Zipline International - All Rights Reserved
+You may use and modify this code for non-commercial educational
+or entertainment purposes. Please do not distribute it publically
+without explicit permission from Zipline International. For
+questions related to this code, please contact jeff@flyzipline.com
