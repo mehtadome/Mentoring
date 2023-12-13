@@ -1,7 +1,7 @@
 # Mentoring
 Code for mentoring including custom classes, conceptual questions, and problems for studying.
 
-### Extra Help
+### Recommended Extra Help
 **Easy to Advanced Algorithms** [https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&si=07zmslNqjt-dwSHM]
 
 **Google Resume Tips** [https://m.youtube.com/watch?v=BYUy1yvjHxE]
@@ -13,3 +13,6 @@ Code for mentoring including custom classes, conceptual questions, and problems 
 **NeetCode** Training [https://neetcode.io]
 
 **Dynamic Programming** [https://m.youtube.com/watch?v=oBt53YbR9Kk]
+
+#### Info
+Verified links and courses used by myself and other mentees. 
