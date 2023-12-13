@@ -1,5 +1,6 @@
 # Workday '23
 [https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/]
+
 [https://leetcode.com/problems/reverse-integer/]
 [https://leetcode.com/problems/next-permutation/]
 [https://leetcode.com/problems/merge-intervals/]
