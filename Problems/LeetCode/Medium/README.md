@@ -16,3 +16,7 @@
 [https://leetcode.com/problems/subarray-sum-equals-k/]
 
 [https://leetcode.com/problems/palindromic-substrings/]
+
+## LeanData '21
+[https://leetcode.com/problems/highest-grade-for-each-student/]
+
