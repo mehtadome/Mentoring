@@ -10,12 +10,12 @@ A Stack has two attributes, ```top``` and a ```size```.
 
 ## Tasks
 Create the following methods:
-1. ```push``` - Push a value to the stack.
-2. ```pop``` - Remove a value from the stack.
-3. ```peek``` - View the topmost element of the stack.
+1. ```push``` - Push a node to the stack.
+2. ```pop``` - Remove a node from the stack.
+3. ```peek``` - View the topmost node of the stack.
 4. ```isEmpty``` - Returns true if the stack is empty.
 5. ```size``` - Returns the size of the stack.
-6. ```printStack``` - Print the elements in the stack.
+6. ```printStack``` - Print the nodes in the stack.
 
 Create a stack using your ```push``` function, implement a way to _print_ it, and successfully call all methods properly, showing accurate usage of them with your printing function. 
 
