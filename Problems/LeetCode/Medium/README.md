@@ -20,3 +20,6 @@
 ## LeanData '21
 [https://leetcode.com/problems/highest-grade-for-each-student/]
 
+## Google '19
+[https://leetcode.com/discuss/interview-question/350248/Google-or-Summer-Intern-OA-2019-or-Stores-and-Houses]
+
