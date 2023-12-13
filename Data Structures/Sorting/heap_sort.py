@@ -1,3 +1,25 @@
+
+""" heapsort_max (arr)
+apply max-heapsort on an unsorted arr
+:param arr:
+:return: sorted array arr
+O (n log n)
+"""
+def heapsort_max(arr):
+    pass
+
+
+""" heapsort_min (arr)
+apply min-heapsort on an unsorted arr
+:param arr:
+:return: sorted array arr
+O (n log n)
+"""
+def heapsort_min(arr):
+    pass
+
+
+
 """ parent (pos)
 find parent of current position in heap
 :param pos:
@@ -121,41 +143,6 @@ def build_heap(arr, heap_size, my_type):
             print("Type not specified correctly.")
 
 
-""" heapsort_max (arr)
-apply max-heapsort on an unsorted arr
-:param arr:
-:return: sorted array arr
-O (n log n)
-"""
-def heapsort_max(arr):
-    # A.heap-size = A.length
-    heap_size = len(arr)-1
-
-    # arr, len(arr)-1, max
-    build_heap(arr, heap_size, "max")
-
-    # stops at 1
-    for i in range(len(arr)//2, 0, -1):
-        swap(arr, 0, i)
-        # A.heap.size = A.heap.size - 1
-        heap_size -= 1
-        max_heapify(arr, 0, heap_size)
-
-
-""" heapsort_min (arr)
-apply min-heapsort on an unsorted arr
-:param arr:
-:return: sorted array arr
-O (n log n)
-"""
-def heapsort_min(arr):
-    heap_size = len(arr)-1
-    build_heap(arr, heap_size, "min")
-
-    for i in range(len(arr)//2, 0, -1):
-        swap(arr, 0, i)
-        heap_size -= 1
-        min_heapify(arr, 0, heap_size)
 
 def main():
     #      0 1 2 3 4 5  6  7  8 9 
