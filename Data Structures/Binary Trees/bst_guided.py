@@ -245,14 +245,11 @@ class BinaryTree:
         # Else
         else:
             # Edge case: val equal to root
-            if self.root.val == val:
-                return self.root
+            
             # Val greater than root
-            elif self.root.val < val:
-                self.root.right = self.tree_insert(self.root.right, val)
+            
             # Val less than root
-            else:
-                self.root.left = self.tree_insert(self.root.left, val)
+            pass
 
 
     # given the root of a tree and a value to delete, delete the node from the BT
