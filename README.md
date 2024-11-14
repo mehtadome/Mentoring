@@ -4,6 +4,8 @@ Code for mentoring including custom classes, conceptual questions, and problems 
 ### Recommended Extra Help
 Verified links and courses used by myself and other mentees:
 
+**Leetcode Top 150 Interview Questions** [https://leetcode.com/studyplan/top-interview-150/]
+
 **Easy to Advanced Algorithms** [https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&si=07zmslNqjt-dwSHM]
 
 **Google Resume Tips** [https://m.youtube.com/watch?v=BYUy1yvjHxE]
