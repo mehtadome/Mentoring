@@ -25,10 +25,8 @@ class Graph:
     """
     def dfs_recursive(self, start_vertex: int) -> List[int]:
         # Keep track of visited vertices
-        visited = set()
 
         # Result list to store DFS traversal order
-        result = []
         
         # Helper method in scope to store values over steps
         def dfs_helper(vertex: int) -> None:
