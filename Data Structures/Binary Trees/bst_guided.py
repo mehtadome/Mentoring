@@ -103,7 +103,7 @@ class BinaryTree:
         :param self:
         :return:
         """
-    def in_order_traversal(self):
+    def in_order_traversal(self, root):
         # Edge Case: is tree empty?
 
         # recursive call for left side
@@ -119,7 +119,7 @@ class BinaryTree:
         :param self:
         :return:
         """
-    def pre_order_traversal(self):
+    def pre_order_traversal(self, root):
         # Edge Case: is tree empty?
 
         # print value
@@ -135,7 +135,7 @@ class BinaryTree:
         :param self:
         :return:
         """
-    def post_order_traversal(self):
+    def post_order_traversal(self, root):
         # Edge Case: is tree empty?
 
         # recursive call for left side
@@ -149,15 +149,15 @@ class BinaryTree:
     """
         find the node whose val = val
         :param val:
-        :return T/F:
+        :return node/None:
         """
-    def tree_search(self, val):
+    def tree_search(self, root, val):
         # Edge Case: is tree empty?
 
-        # else, traverse the tree and return True if val is found
+        # else, traverse the tree and return node if val is found
 
-        # else, return False
-        return False
+        # else, return None
+        return None
 
 
     """
@@ -165,7 +165,7 @@ class BinaryTree:
         :param self:
         :return val:
         """
-    def tree_maximum(self):
+    def tree_maximum(self, root):
         # Edge Case: is tree empty?
 
         # you want to use a temp node as to not lose pointer to root of BST
@@ -181,7 +181,7 @@ class BinaryTree:
         :param self:
         :return val:
         """
-    def tree_minimum(self):
+    def tree_minimum(self, root):
         # by bst definition, smaller values are to the left, so traverse the left side
         pass
 
@@ -191,7 +191,7 @@ class BinaryTree:
         :param val:
         :return:
         """
-    def tree_successor(self, val):
+    def tree_successor(self, root):
         # if right subtree isn't empty, successor is leftmost node in
         #       its right subtree
 
@@ -205,7 +205,7 @@ class BinaryTree:
         :param val:
         :return:
         """
-    def tree_predecessor(self, val):
+    def tree_predecessor(self, root):
         # if left subtree isn't empty, predecessor is rightmost node in
         #       its left subtree
 
@@ -221,7 +221,7 @@ class BinaryTree:
         :param val2:
         :return:
         """
-    def lowest_common_ancestor(self, val1, val2):
+    def lowest_common_ancestor(self, root, val1, val2):
         # Do we already have both vals as children of our root?
 
         # else, traverse the tree and return the lowest common ancestor
@@ -253,14 +253,14 @@ class BinaryTree:
 
 
     # given the root of a tree and a value to delete, delete the node from the BT
-    def delete(self, val):
+    def delete(self, root, val):
         # if val is in tree, delete it
         # else, do nothing
         pass
 
 
     # given the root of a tree, balance the tree
-    def balance_bst(self):
+    def balance_bst(self, root):
         # if tree is already balanced, do nothing
 
         # else, do a in-order traversal and create a new BST
