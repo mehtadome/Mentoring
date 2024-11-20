@@ -4,7 +4,7 @@ Recommended Order:
 - Stacks.
 - Queues.
 - Linked Lists.
-- Binary Trees.
+- Binary Search Trees.
 - (Optional) Heaps.
 - Sorting.
 - Dynamic Programming.
