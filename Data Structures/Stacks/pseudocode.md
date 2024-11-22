@@ -1,5 +1,5 @@
 # Pseudocode
-Encompasses two classes, ```Node()```.
+Encompasses two classes, ```Node()``` and  ```Stack()```.
 
 
 ## ```Node``` 
