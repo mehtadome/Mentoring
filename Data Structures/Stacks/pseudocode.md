@@ -1,5 +1,5 @@
 # Pseudocode
-Encompasses two classes, ```Node()``` and ```Tree()```
+Encompasses two classes, ```Node()```.
 
 
 ## ```Node``` 
