@@ -7,6 +7,7 @@ Recommended Order:
 - Binary Search Trees.
 - (Optional) Heaps.
 - Sorting.
+- Graph Traversal.
 - Dynamic Programming.
 - Greedy Algorithms.
 
