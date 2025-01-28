@@ -20,3 +20,6 @@ Create a binary search tree using your ```tree_insert``` method, implement a way
 
 ### Clarifications
 ```pass``` is inputed to avoid errors. It is not appropriate code and should not remain in your working methods.
+
+### Challenge
+Redesign the binary tree to have each child know its ```parent``` and create an alternative ```balanced_insert``` method which balances the tree after each insertion.
